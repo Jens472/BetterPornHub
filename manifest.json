@@ -1,0 +1,17 @@
+{
+  "name": "BetterPornHub",
+  "version": "2.34",
+  "manifest_version": 2,
+  "icons": { "16" : "16.png",
+			 "48" : "48.png"},
+  "description": "Removes All Unnecessary Shit On The Page",
+  "browser_action": {
+    "name": "BetterPornHub",
+
+    "default_icon": "16.png"
+  },
+  "content_scripts": [ {
+    "js": [ "jquery.min.js", "background.js" ],
+    "matches": [ "http://www.pornhub.com/*", "https://www.pornhub.com/*"]
+  }]
+}
