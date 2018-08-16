@@ -1,5 +1,5 @@
-# BetterPornHub
-Removes all the anoying crap at PornHub.com
+# bph
+Removes all the anoying crap at p.h
 
 # How To Install
 Goto chrome://extensions and tick on Developer Mode(topright corner). 
